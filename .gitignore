@@ -23,6 +23,8 @@ log.txt
 /platforms
 /plugins
 
+# Intentionally not included
+/src/environments/environment.ts
 # Compiled output
 /dist
 /tmp

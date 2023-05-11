@@ -9,7 +9,7 @@ export class DateFormattingPipe implements PipeTransform {
     let a = new Date(+unixTimestamp * 1000);
     let months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
     let days = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
-    return days[a.getDay()] + ', ' + months[a.getMonth()] + ' ' + a.getDay() + ' ' + a.getHours() + ':' + a.getMinutes();
+    return days[a.getDay()] + ', ' + months[a.getMonth()] + ' ' + a.getDate() + ' ' + a.getHours() + ':' + a.getMinutes();
   }
 
 }
