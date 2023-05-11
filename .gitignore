@@ -25,6 +25,7 @@ log.txt
 
 # Intentionally not included
 /src/environments/environment.ts
+
 # Compiled output
 /dist
 /tmp
